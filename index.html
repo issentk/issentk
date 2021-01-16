@@ -1,0 +1,60 @@
+---
+layout: static
+---
+
+<h1 id="greetings">Hey fellas</h1>
+<p>This is the homepage of the ISSEN.TK group.
+We provide our views on current research in information systems, coding, writing, politics, and trivia.
+<a href="{{site.url}}/archive.html">An archive</a> of posts is available.</p>
+
+<div id="paginated-content">
+{% for post in paginator.posts %}
+
+<div class="content-container">
+  <div class="content-container-excerpt">
+
+  <h2 class="content-container-header">
+  <a href="{{site.url}}{{ post.url }}">
+  <img src="{{ '/assets/images/bullet.png' | relative_url }}"/>
+  {{ post.title }}
+  <small class="small-date">{{ post.date | date_to_long_string }}</small>
+  </a>
+  </h2>
+
+    {% if post.content contains site.excerpt_separator %}
+      {{ post.excerpt }}
+      <p><a href="{{ post.url | relative_url }}">This is a longer post, so click to read more.</a></p>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </div>
+</div>
+
+{% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

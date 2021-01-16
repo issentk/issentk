@@ -1,0 +1,7 @@
+This is our first post for the 2018 saga. Hello world, friends! As a gimmick, find the following review of Akiyuki Nosaka's **Grave of the fireflies**:
+
+> The essay "graves of fireflies" by Akiyuki Nosaka presents the story of two siblings, war orphans in Kobe, Japan, after/in the second world war. It is a tale how the two challenge death, after they lost their parents to B29 bombers.
+> 
+> The exposé foreshadows the end of the story, and is like an intuition of the horrids to follow. The horrids are vividly described and allow for the reader to imagine the situation. Since the two protagonists are children, the explication of their bodily deterioration and how the brother tries to deal with it creates an anxious atmosphere. Especially, the indifference, or even the hatred, of the other townspeople further darkens the mood of the story -- very much to the compassion of the reader.
+> 
+> Nosaka employs a unique writing style, termed by the translator James R. Abrams as a "rambling, nanational way of telling a story", which supports the vivid depiction of the situation and provides a nice and quick flow of the story. It is a short and concise account of the couple months timespan from the bombs to the death by malnutrition of the two protagonists. This means, you should not expect a lot of action in the story or by the protagonists, rather an outstanding tale of unsparing suffering.

@@ -1,0 +1,15 @@
+
+William Zinsser's "On Writing Well - The Classic Guide to Writing Well" is a book originally published in 1976. In four parts, late William gives his view on writing non-fiction imbued with many examples. The first part takes on the principles and methods of writing. The second part goes into forms of writing and the last part addresses the attitudes of the author.
+
+Let's look at a few details of the book from the back. William states that you should, despite any fears of controversy, stay true to yourself. Stay true to the facts and your own conscience. Stay true to your own voice, but write as well as you can.
+
+As such, William describes that he is quick to decline offers for writing, when he thinks that he cannot write about the offered topic, adequately. In one moment, however, he decided to go for it, despite hesitating at first. It was an essay on Roger Tory Peterson.
+Roger is well known for watching birds, and then drawing and writing about them. When William was approached, he refused the offer to interview Roger. But he was impressed by Roger's age, 84 years old, at which Roger was still going strong drawing and writing about birds every day. No so much interested in birds, William's interest was caught by the person behind the pencil and camera. Visiting Roger, the two couldn't stop talking and the interview lasted a whole afternoon. The two discussed Roger's work, and happened to explore Roger's collection of birds. Impressed by the interview, William went on to write an acclaimed essay on Roger.
+
+Despite refusing the work at first, because he was neither interested nor knowledgeable about birds, William wrote a story on the person behind the bird. He argues that stories should always be about people, not about things or landscapes -- about people, who do things, or visit landscapes.
+
+In his book, William provides many anecdotes, examples and useful guidelines for aspiring (and established) writers. One guideline that struck me, was rewriting and cutting content. It is impossible to for the you, as the author, to tell everything. Your research, notes and experiences will be too much to all go into the manuscript. Instead, you should describe the significant details, which illustrate your point. This is line with William's credo "cut, cut, cut". According to him, rewriting and cutting is the most important part of writing -- and for him the most fun.
+
+To provide a glimpse on what makes good and bad writing, William uses examples. I do like the examples as he selected high quality quotes from other renowned authors. However, he uses too many of them for my taste. Sometimes, they are not well embedded into the surrounding context. I guess that he did not have enough space, to be thorough with each example -- and probably it would have been boring if he was. But why not use them more sparingly and focus on a fewer, but more significant ones? On the first 200 pages I counted around 100 examples.
+
+Nevertheless, this book contains many useful hints for writing and is well written. Despite some repetitiveness, I recommend it for a relaxed read, if you are interested in the craft of writing.

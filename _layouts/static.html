@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+
+  {% include header.html %}
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <section>
+        {% include title.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+
+      </section>
+
+    </div>
+
+   {% include analytics.html %}
+
+  </body>
+</html>

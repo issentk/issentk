@@ -1,0 +1,26 @@
+title: I S S E N . T K
+description: a coding group with political views
+author: jenni
+twitter:
+  username: issentk
+url: https://www.issentk.info
+show_downloads: false
+paginate: 5
+paginate_path: "/:num/"
+permalink: "/:year/:month/:day/:title.html"
+excerpt_separator: <!--more-->
+baseurl: 
+emptyArray: []
+google_analytics: UA-96454113-1
+theme: 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

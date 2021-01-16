@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+
+  {% include header.html %}
+
+  </head>
+  <body>
+
+
+    <div class="wrapper">
+
+      <section>
+        {% include title.html %}
+
+        <div id="post-header">
+          <h2 class="post-title">{{ page.title }}</h2>
+          <div class="post-info">
+            <div>
+              posted on {{page.date | date: "%Y-%m-%d" }}{% if page.author %}, by <a href="https://github.com/{{page.author}}">{{page.author}}</a>{% endif %}{% if page.categories.size != 0 %},
+              in categories
+
+              <!-- Categories -->
+              {% assign cats = site.emptyArray %}
+              {% for cat in page.categories %}
+
+                {% capture temp %}<a href="/categories.html#{{ cat | slugify }}">{{ cat }}</a>{% endcapture %}
+
+                {% assign cats = cats | push: temp %}
+              {% endfor %}
+
+              {{ cats | array_to_sentence_string }}{% else %}{% endif %}{% if page.tags.size != 0 %},
+
+              <!-- Tags -->
+              tagged as
+
+              {% assign tags = site.emptyArray %}
+              {% for tag in page.tags %}
+
+                {% capture temp %}<a href="/tags.html#{{ tag | slugify }}">{{ tag }}</a>{% endcapture %}
+
+                {% assign tags = tags | push: temp %}
+              {% endfor %}
+
+              {{ tags | array_to_sentence_string }}.
+              {% else %}.
+              {% endif %}
+
+            </div>
+            <div>
+            {% if page.comment %}
+            <a href="#mycomment">view comment</a>
+            or
+            {% endif %}
+            <a href="{{ site.baseurl }}/index.html">go back</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-container-excerpt">
+          {{ content }}
+        </div>
+
+        {% if page.comment %}
+        <div id="mycomment">
+        <h3>Comments</h3>
+        {{ page.comment | markdownify }}
+        </div>
+        {% endif %}
+
+        {% include footer.html %}
+
+      </section>
+
+    </div>
+
+    {% include analytics.html %}
+
+  </body>
+</html>
